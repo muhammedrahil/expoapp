@@ -1,5 +1,5 @@
-import 'package:expo/Screens/post_details.dart';
-import 'package:expo/models/post.dart';
+import 'package:expo/Screen/post_details.dart';
+import 'package:expo/model/post.dart';
 import 'package:expo/widgets/post_cell.dart';
 import 'package:flutter/material.dart';
 import 'package:video_player/video_player.dart';
