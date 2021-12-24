@@ -1,4 +1,4 @@
-import 'package:expo/Screens/image_screen.dart';
+import 'package:expo/Screens/video_screen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -15,7 +15,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ImageScreen(),
+      home: VideoScreen(),
     );
   }
 }
