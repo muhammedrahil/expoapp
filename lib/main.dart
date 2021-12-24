@@ -1,10 +1,9 @@
+
 import 'package:animated_splash_screen/animated_splash_screen.dart';
 import 'package:expo/Screen/homee.dart';
-import 'package:expo/home.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 
-import 'dashbord.dart'; 
 
 void main() {
   runApp(MyApp());
@@ -21,6 +20,7 @@ class MyApp extends StatelessWidget {
     );
     return MaterialApp(
       debugShowCheckedModeBanner: false,
+
       title: 'MALABAR',
       theme: ThemeData(
       
@@ -35,4 +35,3 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-
